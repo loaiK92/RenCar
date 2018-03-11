@@ -1,0 +1,83 @@
+*, html, body{
+      padding: 0;
+      margin: 0;
+}
+
+body{
+      font-size: 1em;
+}
+
+a{
+      text-decoration: none;
+}
+
+/*---------------------------header------------------------------*/
+
+.navbar-dark .navbar-nav .nav-link{
+      color: #fff;
+      font-size: 1.2em;
+      padding-left: 20%;
+}
+
+
+/*---------------------------home------------------------------*/
+
+#home{
+      position: relative;
+      height: 100vh;
+      background-image: url(../images/intro-bg-3.jpg);
+      background-attachment: fixed;
+      background-position: bottom;
+      background-size: cover;
+}
+
+.intro-text{
+      width: 40%;
+      position: absolute;
+      left: 30%;
+      top: 27%;
+      color: #fff;
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-size: 1.4em;
+      line-height: 1.8;
+      letter-spacing: 2px;
+      text-align: center;
+}
+
+
+
+.card-img-top-parent{
+      position: relative;
+      overflow: hidden;
+}
+.car-available{
+      display: block;
+      position: absolute;
+      top: -50px;
+      left: -15px;
+      width: 80px;
+      height: 150px;
+      transform: rotate(45deg);
+      background: red;
+}
+.car-available-text{
+      color: #fff;
+      width: 150px;
+      font-size: 1.2em;
+      position: absolute;
+      left: -8px;
+      top: 40px;
+      transform: rotate(-90deg);
+}
+
+/* .car-available-style-1{
+      display: block;
+      position: absolute;
+      top: -10px;
+      width: 50px;
+      height: 50px;
+      transform: rotate(45deg);
+      background: #000;
+      z-index: 5;
+} */

@@ -7,37 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <style>
-          .card-img-top-parent{
-                position: relative;
-                overflow: hidden;
-          }
-          .car-available{
-                display: block;
-                position: absolute;
-                top: -50px;
-                left: -15px;
-                width: 80px;
-                height: 150px;
-                transform: rotate(45deg);
-                background: red;
-          }
-          .car-available-text{
-                color: #fff;
-                width: 150px;
-                font-size: 1.2em;
-                position: absolute;
-                left: -8px;
-                top: 40px;
-                transform: rotate(-90deg);
-          }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
       <header>
-            <div class="container-fluid bg-light">
+            <!-- <div class="container-fluid bg-light">
                   <div class="container">
                         <div class="logo text-center py-4">
                               <a href="#"><h1>RenCar</h1></a>
@@ -45,29 +25,55 @@
                         <nav class="pb-2">
                               <ul class="nav nav-pills nav-fill">
                                     <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger active" href="#">HOME</a>
+                                          <a class="nav-link js-scroll-trigger" href="#home">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#">SERVICES</a>
+                                          <a class="nav-link js-scroll-trigger" href="#service">SERVICES</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#">CARS</a>
+                                          <a class="nav-link js-scroll-trigger" href="#cars">CARS</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#">CONTACT</a>
+                                          <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
                                     </li>
                               </ul>
                         </nav>
                   </div>
-            </div>
+            </div> -->
+
+            <nav class="nav navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                  <div class="container">
+                        <a class="logo navbar-brand js-scroll-trigger" href="#"><h1>RenCar</h1></a>
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            Menu
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                              <ul class="navbar-nav text-uppercase ml-auto">
+                                    <li class="nav-item">
+                                          <a id="home-link" class="nav-link js-scroll-trigger" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a id="service-link" class="nav-link js-scroll-trigger" href="#service">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a id="cars-link" class="nav-link js-scroll-trigger" href="#cars">Cars</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a id="contact-link" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </nav>
       </header>
 
 
       <main>
-            <section class="bg-dark py-5" id="home">
-                  <div class="container-fluid bg-image">
+            <section class="py-5" id="home">
+                  <div class="container-fluid">
                         <div class="container">
-                              <p class="text-muted mx-auto my-0 w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus iusto adipisci est inventore voluptatibus dolores eius quidem natus voluptas architecto maiores, sequi mollitia dicta. Hic vel, consequuntur nisi sunt officiis voluptate sapiente? Incidunt facere quisquam ipsum exercitationem voluptatum alias!</p>
+                              <p class="intro-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus iusto adipisci est inventore voluptatibus dolores eius quidem natus voluptas architecto maiores, sequi mollitia dicta. Hic vel, consequuntur nisi sunt officiis voluptate sapiente? Incidunt facere quisquam ipsum exercitationem voluptatum alias!</p>
                         </div>
                   </div>
             </section>
@@ -189,6 +195,7 @@
                         <div class="card-deck">
                               <div class="card">
                                     <div class="card-img-top-parent">
+                                          <span class="car-available-style-1"></span>
                                           <span class="car-available"><p class="car-available-text">Not Available</p></span>
                                           <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
                                     </div>
@@ -374,5 +381,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>
