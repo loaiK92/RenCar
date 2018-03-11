@@ -11,12 +11,46 @@ a{
       text-decoration: none;
 }
 
+p{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+}
+
+.section-title{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+}
+
+.btn-primary {
+      color: #333;
+      background-color: #ebb801;
+      border-color: #fed136;
+}
+.btn-primary:hover {
+      color: #333;
+      background-color: #ebb801;
+      border-color: #fed136;
+      box-shadow: 4px 5px 20px #ebb801;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+      box-shadow: none;
+  }
+
 /*---------------------------header------------------------------*/
+
+.logo{
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
 
 .navbar-dark .navbar-nav .nav-link{
       color: #fff;
       font-size: 1.2em;
       padding-left: 20%;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+      color: #fed136 !important;
 }
 
 
@@ -45,8 +79,21 @@ a{
       text-align: center;
 }
 
+/*---------------------------servises------------------------------*/
 
+#service{
+      height: 100vh;
+}
 
+.card{
+      box-shadow: 1px 1px 10px #333;
+}
+
+/*---------------------------cars------------------------------*/
+
+#cars{
+      
+}
 .card-img-top-parent{
       position: relative;
       overflow: hidden;
@@ -81,3 +128,9 @@ a{
       background: #000;
       z-index: 5;
 } */
+
+/*---------------------------contact------------------------------*/
+
+#contact{
+      height: 1000px;
+}
