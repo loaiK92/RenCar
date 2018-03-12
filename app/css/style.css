@@ -132,5 +132,45 @@ p{
 /*---------------------------contact------------------------------*/
 
 #contact{
-     
+      background-color: #333;
+      background-image: url(../images/map-image.png);
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+}
+
+#contact .pl-4 a{
+      color: #fff;
+}
+
+
+.twitter{
+    color: #1da1f2;
+}
+.facebook{
+      color: #3b5998;
+}
+.linkedin{
+   color: #dd5143;
+}
+
+/*--------------------------Footer-------------------------------*/
+
+#footer{
+      margin-top: 30px;
+}
+
+.footer-logo{
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.footer-logo h4{
+      font-size: 38px;
+}
+.footer-logo a{
+      text-decoration: none;
+      color: #000000;
+}
+.copyright {
+      vertical-align: bottom;
 }
