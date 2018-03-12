@@ -16,6 +16,12 @@ p{
       font-style: italic;
 }
 
+h3, h4, h5{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-weight: bold;
+}
+
 .section-title{
       font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
       font-style: italic;
@@ -118,19 +124,52 @@ p{
       transform: rotate(-90deg);
 }
 
-/* .car-available-style-1{
-      display: block;
-      position: absolute;
-      top: -10px;
-      width: 50px;
-      height: 50px;
-      transform: rotate(45deg);
-      background: #000;
-      z-index: 5;
-} */
+#cars-btn-hide{
+      display: none;
+}
 
 /*---------------------------contact------------------------------*/
 
 #contact{
-     
+      background-color: #333;
+      background-image: url(../images/map-image.png);
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+}
+
+#contact .pl-4 a{
+      color: #fff;
+}
+
+
+.twitter{
+    color: #1da1f2;
+}
+.facebook{
+      color: #3b5998;
+}
+.linkedin{
+   color: #dd5143;
+}
+
+/*--------------------------Footer-------------------------------*/
+
+#footer{
+      margin-top: 30px;
+}
+
+.footer-logo{
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.footer-logo h4{
+      font-size: 38px;
+}
+.footer-logo a{
+      text-decoration: none;
+      color: #000000;
+}
+.copyright {
+      vertical-align: bottom;
 }

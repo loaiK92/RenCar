@@ -1,0 +1,115 @@
+{
+      "services":{
+            "firstCard":{
+                  "modalTitle": "Discount for long term",
+                  "modalText": "<p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>"
+            },
+            "secondCard":{
+                  "modalTitle": "Discount for students",
+                  "modalText": "<p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>"
+            },
+            "thirdCard":{
+                  "modalTitle": "Other offers for you",
+                  "modalText": "<h5>Airport transportation :</h5><p>example text to build on the card title and make up the bulk of the card's content bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p><br><h5>Child seat :</h5><p>example text to build on the card title and make up the bulk of the card's content bulk of the card's content.Some quick example text to build on the card title .</p><br><h5>Get a driver for long trip:</h5><p>example text to build on the card title and make up the bulk of the card's content bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content text to build on the card title and make up the bulk of the card's content.</p>"
+            }
+      },
+
+      "cars":{
+            "car1":{
+                  "img":"images/audi-01.jpeg",
+                  "brand":"audi",
+                  "price":"per day : 300 &euro;",
+                  "available":"available"
+            },
+            "car2":{
+                  "img":"images/bentley-01.jpg",
+                  "brand":"bentley",
+                  "price":"per day : 400 &euro;",
+                  "available":"available"
+            },
+            "car3":{
+                  "img":"images/bmw-01.jpg",
+                  "brand":"bmw",
+                  "price":"per day : 300 &euro;",
+                  "available":"available"
+            },
+            "car4":{
+                  "img":"images/ford-01.jpg",
+                  "brand":"ford",
+                  "price":"per day : 500 &euro;",
+                  "available":"Not available"
+            },
+            "car5":{
+                  "img":"images/lamborghini-01.jpeg",
+                  "brand":"lamborghini",
+                  "price":"per day : 800 &euro;",
+                  "available":"available"
+            },
+            "car6":{
+                  "img":"images/mercedes-01.jpg",
+                  "brand":"mercedes",
+                  "price":"per day : 400 &euro;",
+                  "available":"available"
+            },
+            "car7":{
+                  "img":"images/toyota-02.jpg",
+                  "brand":"toyota",
+                  "price":"per day : 200 &euro;",
+                  "available":"available"
+            },
+            "car8":{
+                  "img":"images/motor-01.jpeg",
+                  "brand":"motor",
+                  "price":"per day : 300 &euro;",
+                  "available":"available"
+            },
+            "car9":{
+                  "img":"images/bmw-02.jpeg",
+                  "brand":"motor",
+                  "price":"per day : 400 &euro;",
+                  "available":"available"
+            },
+            "car10":{
+                  "img":"images/motor-02.jpeg",
+                  "brand":"motor",
+                  "price":"per day : 200 &euro;",
+                  "available":"Not available"
+            },
+            "car11":{
+                  "img":"images/motor-3.jpeg",
+                  "brand":"motor",
+                  "price":"per day : 200 &euro;",
+                  "available":"available"
+            },
+            "car12":{
+                  "img":"images/motor-05.jpeg",
+                  "brand":"motor",
+                  "price":"per day : 50 &euro;",
+                  "available":"available"
+            },
+            "car13":{
+                  "img":"images/mustang-01.jpeg",
+                  "brand":"mustang",
+                  "price":"per day : 500 &euro;",
+                  "available":"available"
+            },
+            "car14":{
+                  "img":"images/porsche-01.jpg",
+                  "brand":"porsche",
+                  "price":"per day : 700 &euro;",
+                  "available":"available"
+            },
+            "car15":{
+                  "img":"images/rangerover-01.jpeg",
+                  "brand":"rangerover",
+                  "price":"per day : 600 &euro;",
+                  "available":"Not available"
+            },
+            "car16":{
+                  "img":"images/subaru-01.jpg",
+                  "brand":"subaru",
+                  "price":"per day : 600 &euro;",
+                  "available":"Nost available"
+            }
+      }
+}

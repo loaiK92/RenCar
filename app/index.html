@@ -17,30 +17,6 @@
   </head>
   <body>
       <header>
-            <!-- <div class="container-fluid bg-light">
-                  <div class="container">
-                        <div class="logo text-center py-4">
-                              <a href="#"><h1>RenCar</h1></a>
-                        </div>
-                        <nav class="pb-2">
-                              <ul class="nav nav-pills nav-fill">
-                                    <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#home">HOME</a>
-                                    </li>
-                                    <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#service">SERVICES</a>
-                                    </li>
-                                    <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#cars">CARS</a>
-                                    </li>
-                                    <li class="nav-item">
-                                          <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
-                                    </li>
-                              </ul>
-                        </nav>
-                  </div>
-            </div> -->
-
             <nav class="nav navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                   <div class="container">
                         <a class="logo navbar-brand js-scroll-trigger" href="#"><h1>RenCar</h1></a>
@@ -93,7 +69,7 @@
                                           <h5 class="card-title">for long term</h5>
                                           <p class="card-text pt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                                  <!-- view Details button -->
-                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                          <button id="card-btn-1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                                           View Details</button>
                                                     
                                                  <!-- Modal -->
@@ -101,13 +77,13 @@
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                       <div class="modal-content">
                                                             <div class="modal-header">
-                                                                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                                  <h4 class="modal-title" id="exampleModalLongTitle"></h4>
                                                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                                         <span aria-hidden="true">&times;</span>
                                                                   </button>
                                                             </div>
-                                                            <div class="modal-body">
-                                                            ...
+                                                            <div id="modalBody" class="modal-body">
+                                                                 
                                                             </div>
                                                             <div class="modal-footer">
                                                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -125,20 +101,20 @@
                                           <h5 class="card-title">for student</h5>
                                           <p class="card-text pt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                                   <!-- view Details button -->
-                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                          <button id="card-btn-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter-1">
                                           View Details</button>
                                                     
                                                  <!-- Modal -->
-                                          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                          <div class="modal fade" id="exampleModalCenter-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                       <div class="modal-content">
                                                             <div class="modal-header">
-                                                                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                                  <h4 class="modal-title" id="exampleModalLongTitle-1">Discount for student</h4>
                                                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                                         <span aria-hidden="true">&times;</span>
                                                                   </button>
                                                             </div>
-                                                            <div class="modal-body">
+                                                            <div id="modalBody-1" class="modal-body">
                                                             ...
                                                             </div>
                                                             <div class="modal-footer">
@@ -157,21 +133,21 @@
                                           <h5 class="card-title">for you</h5>
                                           <p class="card-text pt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                                 <!-- view Details button -->
-                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                          <button id="card-btn-3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter-2">
                                           View Details</button>
                                                     
                                                  <!-- Modal -->
-                                          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                          <div class="modal fade" id="exampleModalCenter-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                                       <div class="modal-content">
                                                             <div class="modal-header">
-                                                                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                                  <h4 class="modal-title" id="exampleModalLongTitle-2"></h4>
                                                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                                         <span aria-hidden="true">&times;</span>
                                                                   </button>
                                                             </div>
-                                                            <div class="modal-body">
-                                                            ...
+                                                            <div id="modalBody-2" class="modal-body">
+                                                            
                                                             </div>
                                                             <div class="modal-footer">
                                                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -192,65 +168,75 @@
                               <span class="title-span"></span>
                         </div>
 
-                        <div class="card-deck">
-                              <div class="card">
+                        <div id="cardDeck" class="card-deck">
+                              <div class="card" style="height: 300px">
                                     <div class="card-img-top-parent">
                                           <span class="car-available-style-1"></span>
-                                          <span class="car-available"><p class="car-available-text">Not Available</p></span>
-                                          <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
+                                          <span class="car-available"><small class="car-available-text">Not Available</small></span>
+                                          <img class="card-img-top" src="images/mercedes-02.jpeg" alt="Card image cap">
                                     </div>
-                                    <div class="card-body">
-                                          <h5 class="card-title text-center">Car Brand</h5>
+                                    <div class="card-body text-uppercase">
+                                          <p class="card-title text-center">mercedes</p>
                                     </div>
                                     <div class="card-footer text-center">
-                                          <small class="text-muted">Price :</small>
+                                          <p class="">per day : 600 &euro;</p>
                                     </div>
                               </div>
 
-                              <div class="card">
+                              <div class="card" style="height: 300px">
                                     <div class="card-img-top-parent">
-                                          <span class="car-available"><p class="car-available-text">Available</p></span>
-                                          <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
+                                          <span class="car-available-style-1"></span>
+                                          <span class="car-available"><small class="car-available-text">Available</small></span>
+                                          <img class="card-img-top" src="images/bmw-3.jpeg" alt="Card image cap">
                                     </div>
-                                    <div class="card-body">
-                                          <h5 class="card-title text-center">Car Brand</h5>
+                                    <div class="card-body text-uppercase">
+                                          <p class="card-title text-center">bmw</p>
                                     </div>
                                     <div class="card-footer text-center">
-                                          <small class="text-muted">Price :</small>
+                                          <p class="">per day : 400 &euro;</p>
                                     </div>
                               </div>
 
-                              <div class="card">
+                              <div class="card" style="height: 300px">
                                     <div class="card-img-top-parent">
-                                          <span class="car-available"><p class="car-available-text">Available</p></span>
-                                          <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
+                                          <span class="car-available-style-1"></span>
+                                          <span class="car-available"><small class="car-available-text">Not Available</small></span>
+                                          <img class="card-img-top" src="images/motor-4.jpeg" alt="Card image cap">
                                     </div>
-                                    <div class="card-body">
-                                          <h5 class="card-title text-center">Car Brand</h5>
+                                    <div class="card-body text-uppercase">
+                                          <p class="card-title text-center">motor</p>
                                     </div>
                                     <div class="card-footer text-center">
-                                          <small class="text-muted">Price :</small>
+                                          <p class="">per day : 200 &euro;</p>
                                     </div>
                               </div>
 
-                              <div class="card">
+                              <div class="card" style="height: 300px">
                                     <div class="card-img-top-parent">
-                                          <span class="car-available"><p class="car-available-text">Available</p></span>
-                                          <img class="card-img-top" src="http://via.placeholder.com/100x100" alt="Card image cap">
+                                          <span class="car-available-style-1"></span>
+                                          <span class="car-available"><small class="car-available-text">Available</small></span>
+                                          <img class="card-img-top" src="images/van-01.jpg" alt="Card image cap">
                                     </div>
-                                    <div class="card-body">
-                                          <h5 class="card-title text-center">Car Brand</h5>
+                                    <div class="card-body text-uppercase">
+                                          <p class="card-title text-center">van</p>
                                     </div>
                                     <div class="card-footer text-center">
-                                          <small class="text-muted">Price :</small>
+                                          <p class="">per day : 200 &euro;</p>
                                     </div>
                               </div>
                               
+                        </div>
+                        <div class="cars-button mb-5 text-center py-3">
+                              <button id="cars-btn" type="button" class="btn btn-primary mx-auto mt-5">
+                              View More</button>
+                              <button id="cars-btn-hide" type="button" class="btn btn-primary mx-auto mt-5">
+                                    Hide</button>
                         </div>
                   </div>
             </section>
 
             <section id="contact" class="section" data-link="#contact">
+                  <div class="contact-bg">
                   <div class="col py-5">
                         <h2 class="section-title py-5 text-center">CONTACT</h2>
                         <span class="title-span"></span>
@@ -260,9 +246,9 @@
                         <div class="contact-form col-lg-6">
                               <form class="border">
                                     <div class="col pt-4">
-                                          <p class="text-center text-muted">Contact Us For More Information</p>
+                                          <p class="text-center">Contact Us For More Information</p>
                                     </div>
-                                    <div class="row pt-3 pb-2">
+                                    <div class="row pt-3 pb-2 m-1">
                                           <div class="col">
                                                 <input type="text" class="form-control" placeholder="Name">
                                           </div>
@@ -270,7 +256,7 @@
                                                 <input type="email" class="form-control" placeholder="Email">
                                           </div>
                                     </div>
-                                    <div class="row py-2">
+                                    <div class="row py-4 m-1">
                                           <div class="col">
                                                 <input type="number" class="form-control" placeholder="Age">
                                           </div>
@@ -294,7 +280,7 @@
                               </form>
                         </div>
 
-                        <div class="contact-info w-100 d-flex flex-wrap bg-light">
+                        <div class="ml-4 contact-info w-100 d-flex flex-wrap">
                               <table class="table w-50">
                                     <thead>
                                           <tr>
@@ -329,23 +315,26 @@
                               <div class="social w-100 pt-5">
                                     <ul class="d-flex justify-content-center">
                                           <li class="list-inline-item px-2">
-                                              <a href="#"> <i class="fa fa-twitter fa-2x"></i></a>
+                                              <a href="#"> <i class="fa twitter fa-twitter fa-2x"></i></a>
                                           </li>
                                           <li class="list-inline-item px-2">
-                                                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                                <a href="#"><i class="fa facebook fa-facebook fa-2x"></i></a>
                                           </li>
                                           <li class="list-inline-item px-2">
-                                              <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                                              <a href="#"><i class="fa linkedin fa-linkedin fa-2x"></i></a>
                                           </li>
                                     </ul>  
                               </div>
                         </div>
                   </div>
+            </div>
             </section>
 
       </main>
+     
 
-      <footer class="container-fluid d-flex justify-content-around">
+      <!--Footer Area-->
+      <footer id="footer" class="container-fluid d-flex justify-content-around">
             <div class="footer-logo">
                   <div class="text-center pt-5">
                         <a href="#"><h4>RenCar</h4></a>
