@@ -1,0 +1,200 @@
+*, html, body{
+      padding: 0;
+      margin: 0;
+}
+
+body{
+      font-size: 1em;
+}
+
+a{
+      text-decoration: none;
+}
+
+p{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+}
+
+h3, h4, h5{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-weight: bold;
+}
+
+.section-title{
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+}
+
+.btn-primary {
+      color: #333;
+      background-color: #ebb801;
+      border-color: #fed136;
+}
+.btn-primary:hover {
+      color: #333;
+      background-color: #ebb801;
+      border-color: #fed136;
+      box-shadow: 4px 5px 20px #ebb801;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+      box-shadow: none;
+  }
+
+/*---------------------------header------------------------------*/
+
+.logo{
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+      color: #fff;
+      font-size: 1.2em;
+      padding-left: 20%;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+      color: #fed136 !important;
+}
+
+
+/*---------------------------home------------------------------*/
+
+#home{
+      position: relative;
+      height: 100vh;
+      background-image: url(../images/intro-bg-3.jpg);
+      background-attachment: fixed;
+      background-position: bottom;
+      background-size: cover;
+}
+
+.intro-text{
+      width: 40%;
+      position: absolute;
+      left: 30%;
+      top: 27%;
+      color: #fff;
+      font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-size: 1.4em;
+      line-height: 1.8;
+      letter-spacing: 2px;
+      text-align: center;
+}
+.welcome{
+      font-size:85px;
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+      text-align:center;
+      margin-top:85px;
+      color:#fff;
+}
+.servicesBtn{
+    font-family:sans-serif;  
+    width:180px;
+    height:60px;
+    background-color: #ebb801;
+    box-shadow: 4px 5px 20px rgba(0,0,0,4);
+    position:absolute;  
+    bottom:350px;
+    left:868px;
+    font-size:38px;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+}
+.servicesBtn:hover {
+      color:#fff;
+      text-decoration:none;
+      box-shadow: 4px 5px 20px #ebb801;
+}
+/*---------------------------servises------------------------------*/
+
+#service{
+      height: 100vh;
+}
+
+.card{
+      box-shadow: 1px 1px 10px #333;
+}
+
+/*---------------------------cars------------------------------*/
+
+#cars{
+      
+}
+.card-img-top-parent{
+      position: relative;
+      overflow: hidden;
+}
+.car-available{
+      display: block;
+      position: absolute;
+      top: -50px;
+      left: -15px;
+      width: 80px;
+      height: 150px;
+      transform: rotate(45deg);
+      background: red;
+}
+.car-available-text{
+      color: #fff;
+      width: 150px;
+      font-size: 1.2em;
+      position: absolute;
+      left: -8px;
+      top: 40px;
+      transform: rotate(-90deg);
+}
+
+#cars-btn-hide{
+      display: none;
+}
+
+/*---------------------------contact------------------------------*/
+
+#contact{
+      background-color: #333;
+      background-image: url(../images/map-image.png);
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+}
+
+#contact .pl-4 a{
+      color: #fff;
+}
+
+
+.twitter{
+    color: #1da1f2;
+}
+.facebook{
+      color: #3b5998;
+}
+.linkedin{
+   color: #dd5143;
+}
+
+/*--------------------------Footer-------------------------------*/
+
+#footer{
+      margin-top: 30px;
+}
+
+.footer-logo{
+      font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.footer-logo h4{
+      font-size: 38px;
+}
+.footer-logo a{
+      text-decoration: none;
+      color: #000000;
+}
+.copyright {
+      vertical-align: bottom;
+}
