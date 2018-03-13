@@ -84,6 +84,7 @@ h3, h4, h5{
       letter-spacing: 2px;
       text-align: center;
 }
+<<<<<<< HEAD
 .welcome{
       font-size:85px;
       font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
@@ -110,6 +111,9 @@ h3, h4, h5{
       text-decoration:none;
       box-shadow: 4px 5px 20px #ebb801;
 }
+=======
+
+>>>>>>> dd8ce5ae6e89e353473d46c2f992ede9d833ef8f
 /*---------------------------servises------------------------------*/
 
 #service{
@@ -163,10 +167,22 @@ h3, h4, h5{
       color: #fff;
 }
 
+<<<<<<< HEAD
 #contact .pl-4 a{
       color: #fff;
 }
 
+=======
+#contact p a{
+      color: #fff;
+      text-decoration: none;
+}
+
+.contact-logo a{
+      color: #fff;
+      text-decoration: none;
+}
+>>>>>>> dd8ce5ae6e89e353473d46c2f992ede9d833ef8f
 
 .twitter{
     color: #1da1f2;
